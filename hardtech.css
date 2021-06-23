@@ -1,0 +1,81 @@
+*{margin: 0 auto; padding: 0 auto; font-family: calibri;}
+
+body{
+	background-image: url(imagenes/setuphamer.jpg);
+	background-repeat: no-repeat;
+	width: 100%
+}
+
+header{
+	width: 1500px;
+	height: 70px;
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav{
+	margin-top: 25px;
+}
+
+header nav a{
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+} 
+
+.negro{
+	background-color: black;
+}
+
+
+#banner{
+	width: 1100px;
+	margin: 0 auto;
+	height: 330px;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#tituloprod{
+	width: 82%;
+	height: 340px;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+}
+
+#tituloprod #pcs{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	margin-left: 100px;
+	text-align: center;
+}
+
+#tituloprod h2{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+
+.resize{
+	width: 60%;
+	display: flex;
+	align-items: center;
+}
+
+.resize2{
+	width: 60%;
+}
